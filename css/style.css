@@ -60,6 +60,8 @@
 }
 .feature-banner{
   width:1200px;
+  float:left;
+  margin-left:-23px;
 }
 /*OVERLAY*/
 .image-overlay {
@@ -115,7 +117,7 @@
 .caption{
   font-size: 10pt;
   color:#a8a8a8;
-  padding-top: 5px;
+  margin-top:-15px;
 }
 /*banners with special info/offers*/
 .banner-img{
@@ -151,12 +153,17 @@
 .sample_color{
   height: 80px;
   width:100px;
-  background-color:blue;
   margin-right: 8px;
 }
 /*COLORS*/
-.orange{
-  color: #ff751a;
+.grey{
+  background-color: #a5a09d;
+}
+.blue{
+  background-color:#74b3ff;
+}
+.gold{
+  background-color:#e5aa25;
 }
 /*INTERACTIVITY*/
 /*fade image or color on hover*/
