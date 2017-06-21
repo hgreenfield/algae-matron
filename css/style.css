@@ -165,6 +165,13 @@
 .gold{
   background-color:#e5aa25;
 }
+/*FONT STYLES*/
+.copy{
+  font-family: 'GT America';
+  /*font-style: sans-serif;*/
+  font-size: 18pt;
+  line-height: 24pt
+}
 /*INTERACTIVITY*/
 /*fade image or color on hover*/
 .fade {
