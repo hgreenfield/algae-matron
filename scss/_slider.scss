@@ -1,4 +1,4 @@
-
+@import 'fonts';
 body{
   background-color: rgb(0,0,0);
   text-align: center;
@@ -51,4 +51,19 @@ label[for=b], output[for=b]{
 .print:active{
   background-color: grey;
   border:2px solid grey;
+}
+.slider-section{
+  background-color:white;
+  padding: 20px;
+  box-shadow: 0px 0px 2px 2px #a8a8a8;
+  float:left;
+  margin:10px;
+  float:left;
+}
+.container-auto{
+  width:auto;
+  height:auto;
+  float:left;
+  align:inline-block;
+  clear:both;
 }

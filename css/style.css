@@ -120,7 +120,7 @@
 }*/
 
 .section-title{
-  font-family: 'GT America';
+  font-family: 'GT America' sans-serif;
   font-weight: bold;
   font-size: 14pt;
 }
@@ -139,7 +139,7 @@
 
 }
 .banner h1{
-  font-family: 'GT America';
+  font-family: 'GT America', sans-serif;
   font-weight: bold;
   font-size: 20pt;
   text-align:center;
@@ -177,18 +177,18 @@
 }
 /*FONT STYLES*/
 .copy{
-  font-family: 'GT America';
+  font-family: 'GT America' sans-serif;
   /*font-style: sans-serif;*/
   font-size: 18pt;
   line-height: 24pt
 }
 .info{
-  font-family: 'GT America';
+  font-family: 'GT America' sans-serif;
   font-size: 16pt;
   margin-top:-20px;
 }
 .sub-info{
-  font-family:'GT America';
+  font-family:'GT America' sans-serif;
   font-size: 10pt;
   font-weight:'light';
   font-style:italic;
@@ -198,11 +198,25 @@ a{
   color:blue;
   text-decoration: none;
 }
-#colorbox{
+.colorbox{
   width:200px;
   height:200px;
   background-color:grey;
-
+  float:left;
+  display:inline-block;
+}
+.item-box{
+  border: 2px solid #3524D3;
+}
+.item-box2{
+  border: 2px solid #FFE840;
+  margin-left: 15px;
+}
+.clothing-container{
+  width:100%;
+  height:auto;
+  float:left;
+  display:inline-block;
 }
 /*INTERACTIVITY*/
 /*fade image or color on hover*/
