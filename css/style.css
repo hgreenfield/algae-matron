@@ -198,6 +198,12 @@ a{
   color:blue;
   text-decoration: none;
 }
+#colorbox{
+  width:200px;
+  height:200px;
+  background-color:grey;
+
+}
 /*INTERACTIVITY*/
 /*fade image or color on hover*/
 .fade {

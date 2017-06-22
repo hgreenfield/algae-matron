@@ -1,12 +1,13 @@
-<!DOCTYPE html>
+
 <head>
   <meta charset='utf-8' name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' href='css/normalize.css'>
   <link rel='stylesheet' href='css/style.css'>
-  <link rel='stylesheet' href='css/module.css'>
+  <link rel='stylesheet' href='css/normalize.css'>
+  <link rel='stylesheet' href='css/module2.css'>
+    <title>Algae-Matron 3000</title>
 </head>
 <body>
-  <title>Algae-Matron 3000</title>
+
   <header class='large'>
       <div class='header-container'>
         <a href='index.html'><img src='assets/logo.png' alt='Algae-Matron 3000 logo' id='logo'></img></a>
@@ -31,50 +32,32 @@
   </header>
   <div class='page'>
   <!-- COLOR SLIDER -->
-    <!-- <div data-role="content" class = "main" id = "main">
-    <div data-role="fieldcontain" data-controltype="slider" class="redSlider">
-        <label for="red" color="red">
-            Red
-        </label>
-        <input id="red" type="range" name="redSlider" value="255" min="0" max="255"
-        data-highlight="true" data-mini="true" onchange = "changeBackground()" />
-    </div>
-    <div data-role="fieldcontain" data-controltype="slider" class="greenSlider">
-        <label for="green">
-            Green
-        </label>
-        <input id="green" type="range" name="greenSlider" value="255" min="0"
-        max="255" data-highlight="true" data-mini="true" onchange = "changeBackground()" />
-    </div>
-    <div data-role="fieldcontain" data-controltype="slider" class="blueSlider">
-        <label for="blue">
-            Blue
-        </label>
-        <input id="blue" type="range" name="blueSlider" value="255" min="0" max="255"
-        data-highlight="true" data-mini="true" onchange = "changeBackground()" />
-    </div> -->
-  <!-- </div>
+  <fieldset>
+    <label for="r">R</label>
+    <input type="range" min="0" max="255" id="r" step="1" value="0">
+    <output for="r" id="r_out">0</output>
+  </fieldset>
 
-  <div id="colorbox" style="padding:0 0 0 0; float:left;">
-    <img src="assets/white-shirt.png">
-  </div> -->
+  <fieldset>
+    <label for="g">G</label>
+    <input type="range" min="0" max="255" id="g" step="1" value="0">
+    <output for="g" id="g_out">0</output>
+  </fieldset>
 
-  <div class='bottom-nav'>
-    <ul class='right'>
-       © 2056 ALGAE-MATRON ALL RIGHTS RESERVED
-    </ul>
-    <ul class='left'>
-      <li>Collaborate</li>
-      <li>News</li>
-      <li>About Us</li>
-      <li>FAQ</li>
-      <li>Conditions</li>
-      <li>Contact</li>
-      <li>Locations</li>
-    </ul>
-  </div>
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    <script src='javascript/nav.js'></script>
-    <script src='javascript/carousel.js'></script>
+  <fieldset>
+    <label for="b">B</label>
+    <input type="range" min="0" max="255" id="b" step="1" value="0">
+    <output for="b" id="b_out">0</output>
+  </fieldset>
+
+  <output id="hex">#000000</output>
+
+  <div class='print'>Calibrate with printer</div>
+</div>
+</header>
 </body>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='javascript/navandslider.js'></script>
+    <!-- <script src='javascript/carousel.js'></script> -->
+
 </html>
